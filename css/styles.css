@@ -36,7 +36,7 @@ body {
   margin: 0 auto;
   width: 1200px;
   padding: 0 15px;
-  /* outline: 2px solid tomato; used for checking */
+  /* outline: 2px solid tomato; used for checking*/
 }
 ul {
   font-style: normal;
@@ -589,13 +589,16 @@ img {
   background-color: var(--sec-bg-color);
 }
 /* Logo */
+.contacts-container {
+  width: 231px;
+  margin-right: 70px;
+}
 .footer-studio {
   margin-top: 0;
   margin-bottom: 20px;
   color: var(--main-white-color);
 }
 .footer .address {
-  margin-right: 70px;
   margin-top: 0;
   margin-bottom: 9px;
   color: var(--main-white-color);
@@ -653,7 +656,9 @@ img {
   fill: currentColor;
 }
 
-/* new */
+.subscribe-container {
+  width: 570px;
+}
 .subscribe-label {
   margin-right: 12px;
 }
@@ -682,7 +687,7 @@ img {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 29px;
-  padding-right: 0px;
+  padding-right: 13px;
 
   background-color: var(--accent-color);
   color: var(--main-white-color);
